@@ -13,7 +13,7 @@ OPS Font
 ```
 <i class="opsfont ops-xxx"></i>
 ```
-![image](/guansoul/OPS-Font/blob/master/example/opsfont.png?raw=true)
+<img src="/guansoul/OPS-Font/blob/master/example/opsfont.png?raw=true">
 
 <!-- ## Bower support
 ```
