@@ -15,12 +15,3 @@ OPS Font
 ```
 <img src="https://raw.githubusercontent.com/guansoul/OPS-Font/master/example/opsfont.png">
 
-<!-- ## Bower support
-```
-bower install OPSFont
-```
-
-## NPM support
-```
-npm install OPSFont
-``` -->
