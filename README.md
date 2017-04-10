@@ -15,3 +15,7 @@ OPS Font
 ```
 <img src="https://raw.githubusercontent.com/guansoul/OPS-Font/master/example/opsfont.png">
 
+## NPM support
+```
+npm install opsfont
+```

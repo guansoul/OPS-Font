@@ -1,0 +1,29 @@
+{
+  "name": "opsfont",
+  "version": "1.0.0",
+  "homepage": "https://github.com/guansoul/OPS-Font#readme",
+  "authors": "guansoul",
+  "description": "Icon font library for OPS develop",
+  "main": "./dist/opsfont.css",
+  "scripts": {
+    "build": "dist/opsfont.css"
+  },
+  "keywords": [
+    "css",
+    "ops",
+    "icon font",
+    "OPS Develop"
+  ],
+  "license": "MIT",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guansoul/OPS-Font.git"
+  },
+  "author": "guansoul",
+  "bugs": {
+    "url": "https://github.com/guansoul/OPS-Font/issues"
+  }
+}
