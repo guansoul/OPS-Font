@@ -1,0 +1,305 @@
+/*
+ * iconfont for OPS
+ * author: guandonghua
+ * time: 2017-3-27 develop
+ */
+@font-face {font-family: "opsfont";
+  src: url('fonts/opsfont.eot?t=1490672539774'); /* IE9*/
+  src: url('fonts/opsfont.eot?t=1490672539774#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('fonts/opsfont.woff?t=1490672539774') format('woff'), /* chrome, firefox */
+  url('fonts/opsfont.ttf?t=1490672539774') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('fonts/opsfont.svg?t=1490672539774#opsfont') format('svg'); /* iOS 4.1- */
+}
+.opsfont {
+  display: inline-block;
+  position: relative;
+  font-family:"opsfont" !important;
+  font-size: 20px;
+  font-style:normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ops-ban:before { content: "\e63c"; }
+.ops-universe:before { content: "\e641"; }
+.ops-service-config:before { content: "\e7e8"; }
+.ops-applyfor:before { content: "\e689"; }
+.ops-config-file:before { content: "\e823"; }
+.ops-personal-framework:before { content: "\e609"; }
+.ops-google:before { content: "\e607"; }
+.ops-check:before { content: "\e645"; }
+.ops-close:before { content: "\e646"; }
+.ops-server-tip:before { content: "\e6e1";}
+.ops-editfile:before { content: "\e64f"; }
+.ops-warn:before { content: "\e662"; }
+.ops-question:before { content: "\e691"; }
+.ops-top:before { content: "\e69e"; }
+.ops-pulldown:before { content: "\e69f"; }
+.ops-pullup:before { content: "\e6a0"; }
+.ops-delete:before { content: "\e6ca"; }
+.ops-folder:before { content: "\e6c8"; }
+.ops-qq:before { content: "\e606"; }
+.ops-info:before { content: "\e6f5"; }
+.ops-caret-right:before { content: "\e65d"; }
+.ops-sort-list:before { content: "\e700"; }
+.ops-edit:before { content: "\e69d"; }
+.ops-network:before { content: "\e626"; }
+.ops-copy:before { content: "\e695"; }
+.ops-weixin:before { content: "\e63b"; }
+.ops-help:before { content: "\e622"; }
+.ops-calculator:before { content: "\e698"; }
+.ops-yelp:before { content: "\e8cf"; }
+.ops-smile:before { content: "\e796"; }
+.ops-bigdata:before { content: "\e899"; }
+.ops-yun-bigdata:before { content: "\e625"; }
+.ops-nodes:before { content: "\e708"; }
+.ops-standard:before { content: "\e769"; }
+.ops-git:before { content: "\e605"; }
+.ops-restart-record:before { content: "\e9a1"; }
+.ops-repair:before { content: "\e738"; }
+.ops-task-pool:before { content: "\e88b"; }
+.ops-refresh:before { content: "\e61f"; }
+.ops-calendar:before { content: "\e620"; }
+.ops-cost:before { content: "\e633"; }
+.ops-weibo:before { content: "\e69a"; }
+.ops-lock:before { content: "\e61e"; }
+.ops-server:before { content: "\e652"; }
+.ops-database:before { content: "\e616"; }
+.ops-tongji:before { content: "\e60a"; }
+.ops-domain:before { content: "\e67c"; }
+.ops-rtx:before { content: "\e721"; }
+.ops-nodejs:before { content: "\e8a3"; }
+.ops-caret-left:before { content: "\ea23"; }
+.ops-caret-down:before { content: "\e630"; }
+.ops-caret-up:before { content: "\e631"; }
+.ops-inspect:before { content: "\e79b"; }
+.ops-yun-download:before { content: "\e6ed"; }
+.ops-yun-upload:before { content: "\e6d1"; }
+.ops-yun-mutual:before { content: "\e704"; }
+.ops-ie:before { content: "\e751"; }
+.ops-sysserver:before { content: "\e6fe"; }
+.ops-git-icon:before { content: "\e709"; }
+.ops-table:before { content: "\e669"; }
+.ops-yun-container:before { content: "\e621"; }
+.ops-analyse:before { content: "\e603"; }
+.ops-dns:before { content: "\e61c"; }
+.ops-router:before { content: "\e600"; }
+.ops-datacolony:before { content: "\e6a6"; }
+.ops-bigdata-node:before { content: "\e670"; }
+.ops-statistics:before { content: "\e679"; }
+.ops-domain-authentication:before { content: "\e663"; }
+.ops-location:before { content: "\e673"; }
+.ops-load-balanced:before { content: "\e648"; }
+.ops-computer:before { content: "\e601"; }
+.ops-chart:before { content: "\e618"; }
+.ops-wang:before { content: "\e619"; }
+.ops-tool:before { content: "\e61d"; }
+.ops-server-icon:before { content: "\e628"; }
+.ops-wcode:before { content: "\e642"; }
+.ops-link:before { content: "\e649"; }
+.ops-set:before { content: "\e64b"; }
+.ops-voice:before { content: "\e64c"; }
+.ops-time:before { content: "\e64d"; }
+.ops-home:before { content: "\e728"; }
+.ops-feedback:before { content: "\e656"; }
+.ops-save-as:before { content: "\e666"; }
+.ops-offline-file:before { content: "\e624"; }
+.ops-node:before { content: "\e60d"; }
+.ops-app-store:before { content: "\e678"; }
+.ops-flow-node:before { content: "\e6de"; }
+.ops-flow-instance:before { content: "\e6ef"; }
+.ops-navigation:before { content: "\e651"; }
+.ops-user:before { content: "\e657"; }
+.ops-money:before { content: "\e65b"; }
+.ops-collect:before { content: "\e667"; }
+.ops-wireless:before { content: "\e66c"; }
+.ops-praise:before { content: "\e677"; }
+.ops-listview:before { content: "\e67b"; }
+.ops-load-balancing:before { content: "\e6ea"; }
+.ops-mirror:before { content: "\e664"; }
+.ops-phone:before { content: "\e692"; }
+.ops-transfer:before { content: "\e69b"; }
+.ops-share:before { content: "\e6a5"; }
+.ops-server-safe:before { content: "\e6e0"; }
+.ops-overview:before { content: "\e627"; }
+.ops-user-fill:before { content: "\e6c5"; }
+.ops-service:before { content: "\e66f"; }
+.ops-back:before { content: "\e6ff"; }
+.ops-icp:before { content: "\e694"; }
+.ops-yun-virtual:before { content: "\e6b3"; }
+.ops-jira:before { content: "\e8f6"; }
+.ops-yun-memory:before { content: "\e6f1"; }
+.ops-unix-server:before { content: "\e61a"; }
+.ops-colony:before { content: "\e602"; }
+.ops-data-engine:before { content: "\e6ab"; }
+.ops-tag:before { content: "\e64a"; }
+.ops-department:before { content: "\e640"; }
+.ops-apply:before { content: "\e72b"; }
+.ops-application-o:before { content: "\e6c3"; }
+.ops-circle:before { content: "\e60b"; }
+.ops-apply-config:before { content: "\e617"; }
+.ops-instance:before { content: "\e60c"; }
+.ops-yun-compute:before { content: "\e6f4"; }
+.ops-yun-service:before { content:"\e6f8"; }
+.ops-yun-data:before { content: "\e6fc"; }
+.ops-yun-user:before { content: "\e6fb"; }
+.ops-update:before { content: "\e668"; }
+.ops-speech:before { content: "\e687"; }
+.ops-flag:before { content: "\e63e"; }
+.ops-cry:before { content: "\e6b5"; }
+.ops-yun-deploy:before { content: "\e701"; }
+.ops-two-way:before { content: "\e60e"; }
+.ops-instance-manage:before { content: "\e6c2"; }
+.ops-cms:before { content: "\e60f"; }
+.ops-music:before { content: "\e629"; }
+.ops-server-err:before { content: "\e6e1"; }
+.ops-delete-user:before { content: "\e644"; }
+.ops-camera:before { content: "\e610"; }
+.ops-sensor:before { content: "\e68d"; }
+.ops-system-doc:before { content: "\e611"; }
+.ops-business:before { content: "\e66d"; }
+.ops-users-o:before { content: "\e75a"; }
+.ops-add-user:before { content: "\e63f"; }
+.ops-instance-pool:before { content: "\e612"; }
+.ops-task-list:before { content: "\e6e6"; }
+.ops-adjust:before { content: "\e886"; }
+.ops-printer:before { content: "\e613"; }
+.ops-tip:before { content: "\e75e"; }
+.ops-server-error:before { content: "\e661"; }
+.ops-active:before { content: "\e87b"; }
+.ops-certificate:before { content: "\e665"; }
+.ops-offline:before { content: "\e786"; }
+.ops-data-store:before { content: "\e7b9"; }
+.ops-apply-service:before { content: "\e690"; }
+.ops-ddos:before { content: "\e62a"; }
+.ops-attack-protect:before { content: "\e614"; }
+.ops-earth:before { content: "\e66b"; }
+.ops-yun:before { content: "\e693"; }
+.ops-arrows-alt:before { content: "\eec6"; }
+.ops-loading:before { content: "\e801"; }
+.ops-diannao:before { content: "\e71a"; }
+.ops-auto-work:before { content: "\e62c"; }
+.ops-net-nodes:before { content: "\e62d"; }
+.ops-monitor:before { content: "\e62f"; }
+.ops-dashuju:before { content: "\e632"; }
+.ops-database-icon:before { content: "\e634"; }
+.ops-innovate:before { content: "\e635"; }
+.ops-goc:before { content: "\e636"; }
+.ops-manage:before { content: "\e637"; }
+.ops-teamwork:before { content: "\e638"; }
+.ops-virtual-net:before { content: "\e6c1"; }
+.ops-but-fuwuqiliebiao:before { content: "\e6a6"; }
+.ops-resource-pool:before { content: "\e776"; }
+.ops-minus:before { content: "\e643"; }
+.ops-dashboard:before { content: "\e61b"; }
+.ops-shut:before { content: "\e650"; }
+.ops-filter:before { content: "\e655"; }
+.ops-close-menu:before { content: "\e658"; }
+.ops-remind:before { content: "\e659"; }
+.ops-add:before { content: "\e65a"; }
+.ops-search:before { content: "\e65c"; }
+.ops-email:before { content: "\e65f"; }
+.ops-checked:before { content: "\e671"; }
+.ops-net-system:before { content: "\e674"; }
+.ops-power:before { content: "\e676"; }
+.ops-memory:before { content: "\e68f"; }
+.ops-net-export:before { content: "\e67e"; }
+.ops-file:before { content: "\e611"; }
+.ops-special-line:before { content: "\e681"; }
+.ops-ip:before { content: "\e682"; }
+.ops-vpn:before { content: "\e684"; }
+.ops-usb:before { content: "\e685"; }
+.ops-save:before { content: "\e75c"; }
+.ops-architect-design:before { content: "\e68a"; }
+.ops-history:before { content: "\e683"; }
+.ops-up:before { content: "\e68b"; }
+.ops-down:before { content: "\e68c"; }
+.ops-create-instance:before { content: "\e696"; }
+.ops-check-detail:before { content: "\e6b1"; }
+.ops-tasks:before { content: "\e698"; }
+.ops-lines:before { content: "\e699"; }
+.ops-authority:before { content: "\e69c"; }
+.ops-data-export:before { content: "\e6a3"; }
+.ops-system-status:before { content: "\e6a7"; }
+.ops-number:before { content: "\e6a8"; }
+.ops-orderlist:before { content: "\e64e"; }
+.ops-loader:before { content: "\e6ad"; }
+.ops-mysql:before { content: "\e6af"; }
+.ops-auditing:before { content: "\e6b0"; }
+.ops-server-room:before { content: "\e6e5"; }
+.ops-auto-email:before { content: "\e6b6"; }
+.ops-open-folder:before { content: "\e6b7"; }
+.ops-yun-host:before { content: "\e6a9"; }
+.ops-login:before { content: "\e6b9"; }
+.ops-api-gateway:before { content: "\e6ba"; }
+.ops-robot:before { content: "\e82b"; }
+.ops-auto-op:before { content: "\e63a"; }
+.ops-contact:before { content: "\e6bc"; }
+.ops-ip:before { content: "\e6bd"; }
+.ops-platform:before { content: "\e6be"; }
+.ops-scan:before { content: "\e7db"; }
+.ops-coder:before { content: "\e6bf"; }
+.ops-source:before { content: "\e6c0"; }
+.ops-arrows:before { content: "\e755"; }
+.ops-user-group:before { content: "\e7c2"; }
+.ops-api:before { content: "\e81a"; }
+.ops-recycle:before { content: "\e6c4"; }
+.ops-cpu:before { content: "\e6c6"; }
+.ops-github:before { content: "\e6c7"; }
+.ops-tree-node:before { content: "\e6c9"; }
+.ops-function:before { content: "\e6cb"; }
+.ops-thermometer:before { content: "\e6d2"; }
+.ops-senior:before { content: "\e6cc"; }
+.ops-note:before { content: "\e6ce"; }
+.ops-open-menu:before { content: "\e6cf"; }
+.ops-depot:before { content: "\e6d4"; }
+.ops-fullscreen:before { content: "\e6e9"; }
+.ops-yun-list:before { content: "\e6d5"; }
+.ops-visualization:before { content: "\e6d7"; }
+.ops-apps:before { content: "\e6f9"; }
+.ops-server-repair:before { content: "\e6d8"; }
+.ops-fenxiang2:before { content: "\e7cf"; }
+.ops-left:before { content: "\e6d9"; }
+.ops-right:before { content: "\e6da"; }
+.ops-datum:before { content: "\e6dc"; }
+.ops-show:before { content: "\e6dd"; }
+.ops-gateway:before { content: "\e6df"; }
+.ops-service-business:before { content: "\e6e2"; }
+.ops-change:before { content: "\e70f"; }
+.ops-ide:before { content: "\e6e3"; }
+.ops-host-colony:before { content: "\e6eb"; }
+.ops-order:before { content: "\e6aa"; }
+.ops-logout:before { content: "\e604"; }
+.ops-system:before { content: "\e6e7"; }
+.ops-cmdb:before { content: "\e8ca"; }
+.ops-it-service:before { content: "\e6e8"; }
+.ops-protect:before { content: "\e697"; }
+.ops-daily:before { content: "\e66a"; }
+.ops-spin {
+  -webkit-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+.ops-pulse {
+  -webkit-animation: spin 0.75s infinite steps(8);
+  animation: spin 0.75s infinite steps(8);
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

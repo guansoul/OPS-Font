@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>OPSFont</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="../dist/opsfont.css">
+</head>
+<body>
+    <div class="main markdown">
+        <h2>运维开发图标OPSFont</h2>
+        <p style="font-size: 16px;margin-bottom: 5px;">OPSFont是专门为运维开发整合的一套图标字体库，通过修改图标对应的类名class来使用图标，图标的本质是字体，所以可以通过样式来改变图标的大小，颜色，位置等。</p>
+        <p style="margin: 0;">ps: 以下图标的含义及分类仅是个人的理解和整合，使用时可以根据实际情况选择合适的图标</p>
+
+        <h2 id="font-class-">font-class引用</h2>
+        <p>使用步骤如下：</p>
+        <h3 id="-fontclass-">第一步：引入fontclass的样式代码（不要遗忘fonts文件）：</h3>
+
+        <pre><code class="lang-js hljs javascript"><span class="hljs-comment">&lt;link rel="stylesheet" type="text/css" href="./opsfont.css"&gt;</span></code></pre>
+        <h3 id="-">第二步：挑选相应图标并获取类名，应用于页面 (opsfont样式是图标字体的定义，使用必加)：</h3>
+        <pre><code class="lang-css hljs">&lt;<span class="hljs-selector-tag">i</span> <span class="hljs-selector-tag">class</span>="<span class="hljs-selector-tag">opsfont</span> <span class="hljs-selector-tag">ops-xxx</span>"&gt;&lt;/<span class="hljs-selector-tag">i</span>&gt;</code></pre>
+
+        <h2>OPSFont图标对应的类名_240个</h2>        
+        <h3>服务器图标_21个</h3>
+        <ul class="ops_lists clear">
+            <li>
+                <i class="ops opsfont ops-server"></i>
+                <div class="name">服务器</div>
+                <div class="fontclass">.ops-server</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-server-icon"></i>
+                <div class="name">服务器图标</div>
+                <div class="fontclass">.ops-server-icon</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-server-error"></i>
+                <div class="name">服务警告</div>
+                <div class="fontclass">.ops-server-error</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-server-tip"></i>
+                <div class="name">服务器错误</div>
+                <div class="fontclass">.ops-server-tip</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-host-colony"></i>
+                <div class="name">集群</div>
+                <div class="fontclass">.ops-host-colony</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-colony"></i>
+                <div class="name">集群服务</div>
+                <div class="fontclass">.ops-colony</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-server-room"></i>
+                <div class="name">机房</div>
+                <div class="fontclass">.ops-server-room</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-datacolony"></i>
+                <div class="name">数据集群</div>
+                <div class="fontclass">.ops-datacolony</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-database"></i>
+                <div class="name">数据库</div>
+                <div class="fontclass">.ops-database</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-database-icon"></i>
+                <div class="name">数据库</div>
+                <div class="fontclass">.ops-database-icon</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-data-store"></i>
+                <div class="name">仓库</div>
+                <div class="fontclass">.ops-data-store</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-create-instance"></i>
+                <div class="name">创建实例</div>
+                <div class="fontclass">.ops-create-instance</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-instance"></i>
+                <div class="name">实例</div>
+                <div class="fontclass">.ops-instance</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-instance-pool"></i>
+                <div class="name">实例池</div>
+                <div class="fontclass">.ops-instance-pool</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-server-safe"></i>
+                <div class="name">服务器安全</div>
+                <div class="fontclass">.ops-server-safe</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-server-repair"></i>
+                <div class="name">服务器维修</div>
+                <div class="fontclass">.ops-server-repair</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-data-engine"></i>
+                <div class="name">数据引擎</div>
+                <div class="fontclass">.ops-data-engine</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-restart-record"></i>
+                <div class="name">服务器重启记录单</div>
+                <div class="fontclass">.ops-restart-record</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-update"></i>
+                <div class="name">更新</div>
+                <div class="fontclass">.ops-update</div>
+            </li> 
+            <li>
+                <i class="ops opsfont ops-data-export"></i>
+                <div class="name">数据导出</div>
+                <div class="fontclass">.ops-data-export</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-cmdb"></i>
+                <div class="name">CMDB</div>
+                <div class="fontclass">.ops-cmdb</div>
+            </li>
+    	</ul>
+
+        <h3>网络图标_17个</h3>
+        <ul class="ops_lists clear">
+            <li>
+                <i class="ops opsfont ops-domain"></i>
+                <div class="name">域名\网站</div>
+                <div class="fontclass">.ops-domain</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-domain-authentication"></i>
+                <div class="name">认证服务器</div>
+                <div class="fontclass">.ops-domain-authentication</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-universe"></i>
+                <div class="name">全域配置</div>
+                <div class="fontclass">.ops-universe</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-load-balanced"></i>
+                <div class="name">负载均衡</div>
+                <div class="fontclass">.ops-load-balanced</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-load-balancing"></i>
+                <div class="name">负载均衡</div>
+                <div class="fontclass">.ops-load-balancing</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-network"></i>
+                <div class="name">网卡</div>
+                <div class="fontclass">.ops-network</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-net-nodes"></i>
+                <div class="name">网络节点</div>
+                <div class="fontclass">.ops-net-nodes</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-virtual-net"></i>
+                <div class="name">虚拟网络</div>
+                <div class="fontclass">.ops-virtual-net</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-net-system"></i>
+                <div class="name">网络系统</div>
+                <div class="fontclass">.ops-net-system</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-special-line"></i>
+                <div class="name">专线接入</div>
+                <div class="fontclass">.ops-special-line</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-ip"></i>
+                <div class="name">IP</div>
+                <div class="fontclass">.ops-ip</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-vpn"></i>
+                <div class="name">VPN</div>
+                <div class="fontclass">.ops-vpn</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-dns"></i>
+                <div class="name">DNS</div>
+                <div class="fontclass">.ops-dns</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-router"></i>
+                <div class="name">路由器</div>
+                <div class="fontclass">.ops-router</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-sensor"></i>
+                <div class="name">传感器</div>
+                <div class="fontclass">.ops-sensor</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-net-export"></i>
+                <div class="name">网络接口</div>
+                <div class="fontclass">.ops-net-export</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-api-gateway"></i>
+                <div class="name">API网关</div>
+                <div class="fontclass">.ops-api-gateway</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-gateway"></i>
+                <div class="name">网关</div>
+                <div class="fontclass">.ops-gateway</div>
+            </li>
+    	</ul>
+
+        <h3>云服务图标_19个</h3>
+        <ul class="ops_lists clear">
+            <li>
+                <i class="ops opsfont ops-yun"></i>
+                <div class="name">云</div>
+                <div class="fontclass">.ops-yun</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-container"></i>
+                <div class="name">虚拟容器</div>
+                <div class="fontclass">.ops-yun-container</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-virtual"></i>
+                <div class="name">虚机</div>
+                <div class="fontclass">.ops-yun-virtual</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-host"></i>
+                <div class="name">云主机</div>
+                <div class="fontclass">.ops-yun-host</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-memory"></i>
+                <div class="name">云存储</div>
+                <div class="fontclass">.ops-yun-memory</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-compute"></i>
+                <div class="name">云计算</div>
+                <div class="fontclass">.ops-yun-compute</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-service"></i>
+                <div class="name">云应用\服务</div>
+                <div class="fontclass">.ops-yun-service</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-bigdata"></i>
+                <div class="name">云大数据</div>
+                <div class="fontclass">.ops-yun-bigdata</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-bigdata"></i>
+                <div class="name">大数据</div>
+                <div class="fontclass">.ops-bigdata</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-data"></i>
+                <div class="name">云数据</div>
+                <div class="fontclass">.ops-yun-data</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-list"></i>
+                <div class="name">云服务列表</div>
+                <div class="fontclass">.ops-yun-list</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-bigdata-node"></i>
+                <div class="name">大数据节点</div>
+                <div class="fontclass">.ops-bigdata-node</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-download"></i>
+                <div class="name">云下载</div>
+                <div class="fontclass">.ops-yun-download</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-upload"></i>
+                <div class="name">云上传</div>
+                <div class="fontclass">.ops-yun-upload</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-mutual"></i>
+                <div class="name">云交互</div>
+                <div class="fontclass">.ops-yun-mutual</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-user"></i>
+                <div class="name">云维护人员</div>
+                <div class="fontclass">.ops-yun-user</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yun-deploy"></i>
+                <div class="name">云部署</div>
+                <div class="fontclass">.ops-yun-deploy</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-mirror"></i>
+                <div class="name">镜像</div>
+                <div class="fontclass">.ops-mirror</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-resource-pool"></i>
+                <div class="name">资源池</div>
+                <div class="fontclass">.ops-resource-pool</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-depot"></i>
+                <div class="name">容器仓库</div>
+                <div class="fontclass">.ops-depot</div>
+            </li>
+    	</ul>
+
+
+        <h3>运维图标_76个</h3>
+        <ul class="ops_lists clear">
+            <li>
+                <i class="ops opsfont ops-platform"></i>
+                <div class="name">平台</div>
+                <div class="fontclass">.ops-platform</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-manage"></i>
+                <div class="name">运维管理</div>
+                <div class="fontclass">.ops-manage</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-senior"></i>
+                <div class="name">高级运维</div>
+                <div class="fontclass">.ops-senior</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-analyse"></i>
+                <div class="name">分析</div>
+                <div class="fontclass">.ops-analyse</div>
+            </li>            
+            <li>
+                <i class="ops opsfont ops-tongji"></i>
+                <div class="name">统计</div>
+                <div class="fontclass">.ops-tongji</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-statistics"></i>
+                <div class="name">统计</div>
+                <div class="fontclass">.ops-statistics</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-show"></i>
+                <div class="name">图表展示</div>
+                <div class="fontclass">.ops-show</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-overview"></i>
+                <div class="name">运营概览\监控</div>
+                <div class="fontclass">.ops-overview</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-monitor"></i>
+                <div class="name">监控</div>
+                <div class="fontclass">.ops-monitor</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-visualization"></i>
+                <div class="name">可视化</div>
+                <div class="fontclass">.ops-visualization</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-system-status"></i>
+                <div class="name">系统状态</div>
+                <div class="fontclass">.ops-system-status</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-active"></i>
+                <div class="name">活跃</div>
+                <div class="fontclass">.ops-active</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-lines"></i>
+                <div class="name">多线</div>
+                <div class="fontclass">.ops-lines</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-auto-op"></i>
+                <div class="name">自动运维</div>
+                <div class="fontclass">.ops-auto-op</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-config-file"></i>
+                <div class="name">配置文件</div>
+                <div class="fontclass">.ops-config-file</div>
+            </li>            
+            <li>
+                <i class="ops opsfont ops-certificate"></i>
+                <div class="name">证书</div>
+                <div class="fontclass">.ops-certificate</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-applyfor"></i>
+                <div class="name">提交申请</div>
+                <div class="fontclass">.ops-applyfor</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-task-list"></i>
+                <div class="name">任务列表</div>
+                <div class="fontclass">.ops-task-list</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-note"></i>
+                <div class="name">记录</div>
+                <div class="fontclass">.ops-note</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-cost"></i>
+                <div class="name">运维成本</div>
+                <div class="fontclass">.ops-cost</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-task-pool"></i>
+                <div class="name">任务池</div>
+                <div class="fontclass">.ops--task-pool</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-department"></i>
+                <div class="name">系统运维部门</div>
+                <div class="fontclass">.ops-department</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-personal-framework"></i>
+                <div class="name">人员架构</div>
+                <div class="fontclass">.ops-personal-framework</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-repair"></i>
+                <div class="name">维修</div>
+                <div class="fontclass">.ops-repair</div>
+            </li>   
+            <li>
+                <i class="ops opsfont ops-inspect"></i>
+                <div class="name">检查</div>
+                <div class="fontclass">.ops-inspect</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-auditing"></i>
+                <div class="name">审核</div>
+                <div class="fontclass">.ops-auditing</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-order"></i>
+                <div class="name">提单</div>
+                <div class="fontclass">.ops-order</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-daily"></i>
+                <div class="name">日常工单</div>
+                <div class="fontclass">.ops-daily</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-location"></i>
+                <div class="name">服务定位</div>
+                <div class="fontclass">.ops-location</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-check-detail"></i>
+                <div class="name">查看详情</div>
+                <div class="fontclass">.ops-check-detail</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-instance-manage"></i>
+                <div class="name">实例管理</div>
+                <div class="fontclass">.ops-instance-manage</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-source"></i>
+                <div class="name">资源</div>
+                <div class="fontclass">.ops-source</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-api"></i>
+                <div class="name">API</div>
+                <div class="fontclass">.ops-api</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-it-service"></i>
+                <div class="name">IT服务</div>
+                <div class="fontclass">.ops-it-service</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-apps"></i>
+                <div class="name">多应用</div>
+                <div class="fontclass">.ops-apps</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-application-o"></i>
+                <div class="name">应用</div>
+                <div class="fontclass">.ops-application-o</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-apply-service"></i>
+                <div class="name">应用服务</div>
+                <div class="fontclass">.ops-apply-service</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-apply"></i>
+                <div class="name">应用</div>
+                <div class="fontclass">.ops-apply</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-apply-config"></i>
+                <div class="name">应用配置</div>
+                <div class="fontclass">.ops-apply-config</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-function"></i>
+                <div class="name">功能</div>
+                <div class="fontclass">.ops-function</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-service-business"></i>
+                <div class="name">业务</div>
+                <div class="fontclass">.ops-service-business</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-service-config"></i>
+                <div class="name">业务配置</div>
+                <div class="fontclass">.ops-service-config</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-standard"></i>
+                <div class="name">规范</div>
+                <div class="fontclass">.ops-standard</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-net-nodes"></i>
+                <div class="name">网络节点</div>
+                <div class="fontclass">.ops-net-nodes</div>
+            </li>          
+            <li>
+                <i class="ops opsfont ops-nodes"></i>
+                <div class="name">流程</div>
+                <div class="fontclass">.ops-nodes</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-tree-node"></i>
+                <div class="name">树状节点</div>
+                <div class="fontclass">.ops-tree-node</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-node"></i>
+                <div class="name">节点</div>
+                <div class="fontclass">.ops-node</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-flow-node"></i>
+                <div class="name">流程设计器</div>
+                <div class="fontclass">.ops-flow-node</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-flow-instance"></i>
+                <div class="name">流程实例管理</div>
+                <div class="fontclass">.ops-flow-instance</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-architect-design"></i>
+                <div class="name">架构设计</div>
+                <div class="fontclass">.ops-architect-design</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-transfer"></i>
+                <div class="name">中转变更</div>
+                <div class="fontclass">.ops-transfer</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-change"></i>
+                <div class="name">变更</div>
+                <div class="fontclass">.ops-change</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-two-way"></i>
+                <div class="name">双向服务</div>
+                <div class="fontclass">.ops-two-way</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-attack-protect"></i>
+                <div class="name">攻击防护</div>
+                <div class="fontclass">.ops-attack-protect</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-protect"></i>
+                <div class="name">防护\盾</div>
+                <div class="fontclass">.ops-protect</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-system"></i>
+                <div class="name">操作系统</div>
+                <div class="fontclass">.ops-system</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-recycle"></i>
+                <div class="name">回收</div>
+                <div class="fontclass">.ops-recycle</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-fullscreen"></i>
+                <div class="name">全屏</div>
+                <div class="fontclass">.ops-fullscreen</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-ddos"></i>
+                <div class="name">DDOS</div>
+                <div class="fontclass">.ops-ddos</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-auto-email"></i>
+                <div class="name">自动化邮件</div>
+                <div class="fontclass">.ops-auto-email</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-auto-work"></i>
+                <div class="name">办公自动化</div>
+                <div class="fontclass">.ops-auto-work</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-memory"></i>
+                <div class="name">内存</div>
+                <div class="fontclass">.ops-memory</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-cpu"></i>
+                <div class="name">CPU</div>
+                <div class="fontclass">.ops-cpu</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-usb"></i>
+                <div class="name">USB</div>
+                <div class="fontclass">.ops-usb</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-tag"></i>
+                <div class="name">标签</div>
+                <div class="fontclass">.ops-tag</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-ide"></i>
+                <div class="name">IDE</div>
+                <div class="fontclass">.ops-ide</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-cms"></i>
+                <div class="name">CMS</div>
+                <div class="fontclass">.ops-cms</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-teamwork"></i>
+                <div class="name">研发协同</div>
+                <div class="fontclass">.ops-teamwork</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-coder"></i>
+                <div class="name">代码</div>
+                <div class="fontclass">.ops-coder</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-datum"></i>
+                <div class="name">资料库</div>
+                <div class="fontclass">.ops-datum</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-mysql"></i>
+                <div class="name">MySQL</div>
+                <div class="fontclass">.ops-mysql</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-git-icon"></i>
+                <div class="name">git</div>
+                <div class="fontclass">.ops-git-icon</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-git"></i>
+                <div class="name">Git</div>
+                <div class="fontclass">.ops-git</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-github"></i>
+                <div class="name">Git</div>
+                <div class="fontclass">.ops-github</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-jira"></i>
+                <div class="name">Jira</div>
+                <div class="fontclass">.ops-jira</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-nodejs"></i>
+                <div class="name">nodejs</div>
+                <div class="fontclass">.ops-nodejs</div>
+            </li>        
+    	</ul>
+
+        <h3>常用图标_107个</h3>
+        <ul class="ops_lists clear">
+            <li>
+                <i class="ops opsfont ops-check"></i>
+                <div class="name">勾选、检查</div>
+                <div class="fontclass">.ops-check</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-close"></i>
+                <div class="name">叉\关闭</div>
+                <div class="fontclass">.ops-close</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-checked"></i>
+                <div class="name">选中</div>
+                <div class="fontclass">.ops-checked</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-shut"></i>
+                <div class="name">关闭</div>
+                <div class="fontclass">.ops-shut</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-refresh"></i>
+                <div class="name">刷新</div>
+                <div class="fontclass">.ops-refresh</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-editfile"></i>
+                <div class="name">意见反馈</div>
+                <div class="fontclass">.ops-editfile</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-feedback"></i>
+                <div class="name">我的反馈</div>
+                <div class="fontclass">.ops-feedback</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-edit"></i>
+                <div class="name">编辑</div>
+                <div class="fontclass">.ops-edit</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-delete"></i>
+                <div class="name">删除</div>
+                <div class="fontclass">.ops-delete</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-question"></i>
+                <div class="name">问题</div>
+                <div class="fontclass">.ops-question</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-info"></i>
+                <div class="name">提示</div>
+                <div class="fontclass">.ops-info</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-tip"></i>
+                <div class="name">注意</div>
+                <div class="fontclass">.ops-tip</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-warn"></i>
+                <div class="name">警示</div>
+                <div class="fontclass">.ops-warn</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-help"></i>
+                <div class="name">文档\帮助</div>
+                <div class="fontclass">.ops-help</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-file"></i>
+                <div class="name">文件</div>
+                <div class="fontclass">.ops-file</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-folder"></i>
+                <div class="name">文件夹</div>
+                <div class="fontclass">.ops-folder</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-open-folder"></i>
+                <div class="name">打开文件夹</div>
+                <div class="fontclass">.ops-open-folder</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-copy"></i>
+                <div class="name">复制</div>
+                <div class="fontclass">.ops-copy</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-circle"></i>
+                <div class="name">圆点</div>
+                <div class="fontclass">.ops-circle/div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-caret-up"></i>
+                <div class="name">向上</div>
+                <div class="fontclass">.ops-caret-up</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-caret-down"></i>
+                <div class="name">向下</div>
+                <div class="fontclass">.ops-caret-down</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-caret-left"></i>
+                <div class="name">向左</div>
+                <div class="fontclass">.ops-caret-left</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-caret-right"></i>
+                <div class="name">向右</div>
+                <div class="fontclass">.ops-caret-right</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-up"></i>
+                <div class="name">上</div>
+                <div class="fontclass">.ops-up</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-down"></i>
+                <div class="name">下</div>
+                <div class="fontclass">.ops-down</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-left"></i>
+                <div class="name">左\返回</div>
+                <div class="fontclass">.ops-left</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-right"></i>
+                <div class="name">右\更多</div>
+                <div class="fontclass">.ops-right</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-pulldown"></i>
+                <div class="name">下拉</div>
+                <div class="fontclass">.ops-pulldown</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-pullup"></i>
+                <div class="name">上传</div>
+                <div class="fontclass">.ops-pullup</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-arrows"></i>
+                <div class="name">箭头</div>
+                <div class="fontclass">.ops-arrows</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-top"></i>
+                <div class="name">置顶</div>
+                <div class="fontclass">.ops-top</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-add"></i>
+                <div class="name">加</div>
+                <div class="fontclass">.ops-add</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-minus"></i>
+                <div class="name">减</div>
+                <div class="fontclass">.ops-minus</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-search"></i>
+                <div class="name">搜索</div>
+                <div class="fontclass">.ops-search</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-filter"></i>
+                <div class="name">筛选</div>
+                <div class="fontclass">.ops-filter</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-user"></i>
+                <div class="name">用户</div>
+                <div class="fontclass">.ops-user</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-user-fill"></i>
+                <div class="name">用户</div>
+                <div class="fontclass">.ops-user-fill</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-user-group"></i>
+                <div class="name">用户组</div>
+                <div class="fontclass">.ops-user-group</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-users-o"></i>
+                <div class="name">用户组</div>
+                <div class="fontclass">.ops-users-o</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-add-user"></i>
+                <div class="name">添加用户</div>
+                <div class="fontclass">.ops-add-user</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-delete-user"></i>
+                <div class="name">删除用户</div>
+                <div class="fontclass">.ops-delete-user</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-smile"></i>
+                <div class="name">笑脸</div>
+                <div class="fontclass">.ops-smile</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-cry"></i>
+                <div class="name">苦脸</div>
+                <div class="fontclass">.ops-cry</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-lock"></i>
+                <div class="name">锁\密码</div>
+                <div class="fontclass">.ops-lock</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-login"></i>
+                <div class="name">进入系统</div>
+                <div class="fontclass">.ops-login</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-logout"></i>
+                <div class="name">退出系统\关机</div>
+                <div class="fontclass">.ops-logout</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-ban"></i>
+                <div class="name">禁止</div>
+                <div class="fontclass">.ops-ban</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-save-as"></i>
+                <div class="name">另存为</div>
+                <div class="fontclass">.ops-save-as</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-back"></i>
+                <div class="name">返回</div>
+                <div class="fontclass">.ops-back</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-share"></i>
+                <div class="name">分享</div>
+                <div class="fontclass">.ops-share</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-save"></i>
+                <div class="name">保存</div>
+                <div class="fontclass">.ops-save</div>
+            </li>            
+            <li>
+                <i class="ops opsfont ops-collect"></i>
+                <div class="name">收藏</div>
+                <div class="fontclass">.ops-collect</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-praise"></i>
+                <div class="name">赞</div>
+                <div class="fontclass">.ops-praise</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-set"></i>
+                <div class="name">设置</div>
+                <div class="fontclass">.ops-set</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-loader"></i>
+                <div class="name">加载</div>
+                <div class="fontclass">.ops-loader</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-loading"></i>
+                <div class="name">加载</div>
+                <div class="fontclass">.ops-loading</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-wireless"></i>
+                <div class="name">无线网络</div>
+                <div class="fontclass">.ops-wireless</div>
+            </li>   
+            <li>
+                <i class="ops opsfont ops-offline"></i>
+                <div class="name">离线</div>
+                <div class="fontclass">.ops-offline</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-offline-file"></i>
+                <div class="name">离线文件</div>
+                <div class="fontclass">.ops-offline-file</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-voice"></i>
+                <div class="name">声音</div>
+                <div class="fontclass">.ops-voice</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-speech"></i>
+                <div class="name">语音</div>
+                <div class="fontclass">.ops-speech</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-remind"></i>
+                <div class="name">提醒</div>
+                <div class="fontclass">.ops-remind</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-music"></i>
+                <div class="name">音乐</div>
+                <div class="fontclass">.ops-music</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-link"></i>
+                <div class="name">链接</div>
+                <div class="fontclass">.ops-link</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-home"></i>
+                <div class="name">首页</div>
+                <div class="fontclass">.ops-home</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-sort-list"></i>
+                <div class="name">分类列表</div>
+                <div class="fontclass">.ops-sort-list</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-table"></i>
+                <div class="name">表格</div>
+                <div class="fontclass">.ops-table</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-close-menu"></i>
+                <div class="name">收起菜单</div>
+                <div class="fontclass">.ops-close-menu</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-open-menu"></i>
+                <div class="name">展开菜单</div>
+                <div class="fontclass">.ops-open-menu</div>
+            </li>        
+            <li>
+                <i class="ops opsfont ops-navigation"></i>
+                <div class="name">导航\定位</div>
+                <div class="fontclass">.ops-navigation</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-flag"></i>
+                <div class="name">旗帜</div>
+                <div class="fontclass">.ops-flag</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-money"></i>
+                <div class="name">货币兑换</div>
+                <div class="fontclass">.ops-money</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-tool"></i>
+                <div class="name">工具</div>
+                <div class="fontclass">.ops-tool</div>
+            </li> 
+            <li>
+                <i class="ops opsfont ops-service"></i>
+                <div class="name">服务</div>
+                <div class="fontclass">.ops-service</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-business"></i>
+                <div class="name">业务</div>
+                <div class="fontclass">.ops-business</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-calendar"></i>
+                <div class="name">日历</div>
+                <div class="fontclass">.ops-calendar</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-time"></i>
+                <div class="name">时间</div>
+                <div class="fontclass">.ops-time</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-history"></i>
+                <div class="name">历史</div>
+                <div class="fontclass">.ops-history</div>
+            </li> 
+            <li>
+                <i class="ops opsfont ops-computer"></i>
+                <div class="name">电脑</div>
+                <div class="fontclass">.ops-computer</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-phone"></i>
+                <div class="name">手机</div>
+                <div class="fontclass">.ops-phone</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-contact"></i>
+                <div class="name">联系</div>
+                <div class="fontclass">.ops-contact</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-wcode"></i>
+                <div class="name">二维码</div>
+                <div class="fontclass">.ops-wcode</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-scan"></i>
+                <div class="name">扫描</div>
+                <div class="fontclass">.ops-scan</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-camera"></i>
+                <div class="name">照相机</div>
+                <div class="fontclass">.ops-camera</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-printer"></i>
+                <div class="name">打印机</div>
+                <div class="fontclass">.ops-printer</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-email"></i>
+                <div class="name">邮件</div>
+                <div class="fontclass">.ops-email</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-calculator"></i>
+                <div class="name">计算器</div>
+                <div class="fontclass">.ops-calculator</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-orderlist"></i>
+                <div class="name">清单</div>
+                <div class="fontclass">.ops-orderlist</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-power"></i>
+                <div class="name">电源</div>
+                <div class="fontclass">.ops-power</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-wang"></i>
+                <div class="name">标王</div>
+                <div class="fontclass">.ops-wang</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-qq"></i>
+                <div class="name">QQ</div>
+                <div class="fontclass">.ops-qq</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-weixin"></i>
+                <div class="name">微信</div>
+                <div class="fontclass">.ops-weixin</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-rtx"></i>
+                <div class="name">RTX\万信</div>
+                <div class="fontclass">.ops-rtx</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-app-store"></i>
+                <div class="name">App</div>
+                <div class="fontclass">.ops-app-store</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-google"></i>
+                <div class="name">google </div>
+                <div class="fontclass">.ops-google</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-yelp"></i>
+                <div class="name">yelp</div>
+                <div class="fontclass">.ops-yelp</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-goc"></i>
+                <div class="name">GOC</div>
+                <div class="fontclass">.ops-goc</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-icp"></i>
+                <div class="name">备案</div>
+                <div class="fontclass">.ops-icp</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-weibo"></i>
+                <div class="name">微博</div>
+                <div class="fontclass">.ops-weibo</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-ie"></i>
+                <div class="name">IE</div>
+                <div class="fontclass">.ops-ie</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-earth"></i>
+                <div class="name">地球</div>
+                <div class="fontclass">.ops-earth</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-adjust"></i>
+                <div class="name">adjust</div>
+                <div class="fontclass">.ops-adjust</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-dashboard"></i>
+                <div class="name">仪表盘</div>
+                <div class="fontclass">.ops-dashboard</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-thermometer"></i>
+                <div class="name">温度计</div>
+                <div class="fontclass">.ops-thermometer</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-innovate"></i>
+                <div class="name">创新</div>
+                <div class="fontclass">.ops-innovate</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-number"></i>
+                <div class="name">数字</div>
+                <div class="fontclass">.ops-number</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-robot"></i>
+                <div class="name">机器人</div>
+                <div class="fontclass">.ops-robot</div>
+            </li>
+        </ul>
+
+
+        <h3>动态图标 (在原有样式基础上添加动态样式.ops-spin \ .ops-pulse)</h3>
+        <ul class="ops_lists clear">
+            <li>
+                <i class="ops opsfont ops-loader ops-spin"></i>
+                <div class="name">加载_慢</div>
+                <div class="fontclass">.ops-loader .ops-spin</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-loading ops-pulse"></i>
+                <div class="name">加载_快</div>
+                <div class="fontclass">.ops-loading .ops-pulse </div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-refresh ops-spin"></i>
+                <div class="name">刷新</div>
+                <div class="fontclass">.ops-refresh .ops-spin</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-close ops-spin"></i>
+                <div class="name">关闭</div>
+                <div class="fontclass">.ops-close .ops-spin</div>
+            </li>
+            <li>
+                <i class="ops opsfont ops-repair ops-spin"></i>
+                <div class="name">维修</div>
+                <div class="fontclass">.ops-repair</div>
+            </li>                    
+        </ul>
+    </div>
+</body>
+</html>

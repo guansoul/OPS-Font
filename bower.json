@@ -1,0 +1,19 @@
+{
+  "name": "opsfont",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": "guandonghua",
+  "description": "Icon font library for OPS develop",
+  "main": [
+    "./dist/opsfont.css"
+  ],
+  "keywords": [
+    "css",
+    "ops",
+    "icon font",
+    "OPS Develop"
+  ],
+  "license": "MIT",
+  "ignore": {},
+  "dependencies": {}
+}
