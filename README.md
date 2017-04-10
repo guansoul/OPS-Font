@@ -13,8 +13,9 @@ OPS Font
 ```
 <i class="opsfont ops-xxx"></i>
 ```
+![image](/example/opsfont.jpg)
 
-## Bower support
+<!-- ## Bower support
 ```
 bower install OPSFont
 ```
@@ -22,4 +23,4 @@ bower install OPSFont
 ## NPM support
 ```
 npm install OPSFont
-```
+``` -->
